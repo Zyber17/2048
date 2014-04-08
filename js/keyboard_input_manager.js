@@ -58,7 +58,7 @@ KeyboardInputManager.prototype.listen = function () {
     if (!modifiers) {
       if (mapped !== undefined) {
         event.preventDefault();
-        self.emit("move", (Math.random() < 0.85 ? mapped : (Math.floor(Math.random()*3))));
+        self.emit("move", (Math.random() < 0.95 ? mapped : (Math.floor(Math.random()*3))));
       }
     }
 
