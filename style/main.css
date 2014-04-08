@@ -707,5 +707,6 @@ hr {
     height: 30px !important;
     line-height: 30px !important;
     margin-top: 90px !important; }
+  .mailing-list {display: none;}
   .game-message .lower {
     margin-top: 30px !important; } }
