@@ -818,6 +818,7 @@ hr {
   .tile .tile-inner {
     font-size: 35px; }
 
+<<<<<<< HEAD
   .game-message {
     padding-top: 0; }
     .game-message p {
@@ -930,3 +931,13 @@ hr {
         .btc-donate .address:after {
           left: 50%;
           bottom: 2px; } }
+=======
+  .game-message p {
+    font-size: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    margin-top: 90px !important; }
+  .mailing-list {display: none;}
+  .game-message .lower {
+    margin-top: 30px !important; } }
+>>>>>>> master
